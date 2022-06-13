@@ -5,10 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harry Potter Sentiment</title>
+    
     <link rel="stylesheet" href="style.css"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head>
 <body>
-    <h1>Harry Potter</h1>
+    <div class="container" id="con1">
+        <label for="formSelectBooks" id="label1">Wähle ein Buch:</label>
+        <select class="form-select" id="formSelectBooks" aria-label="Default select example">
+            <option value="Alle">Alle</option>
+            <option value="1">Buch 1</option>
+            <option value="2">Buch 2</option>
+            <option value="3">Buch 3</option>
+            <option value="4">Buch 4</option>
+            <option value="5">Buch 5</option>
+            <option value="6">Buch 6</option>
+            <option value="7">Buch 7</option>
+        </select>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Setze ein Kapitel (optional)</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="1">
+        </div>
+        <div class="horizontal_line"></div>
+        <label for="formSelectPerson" class="form-label" id="label2">Wähle eine Person oder Personengruppe:</label>
+        <select class="form-select" id="formSelectPerson" aria-label="Default select example">
+            <option value="Harry">Harry Potter</option>
+            <option value="Ron">Ron Weasly</option>
+            <option value="Hermoine">Hermine Granger</option>
+        </select>
+        <div class="horizontal_line"></div>
+        <label for="formSelectSpell" class="form-label" id="label3">Wähle einen Zauberspruch:</label>
+        <select class="form-select" id="formSelectSpell" aria-label="Default select example">
+            <option value="1">Wingardium Leviosa</option>
+            <option value="2">Acio</option>
+            <option value="3">Lumus</option>
+        </select>
+        <div class="horizontal_line"></div>
+        <label for="color-picker" id="label4">Farbe:</label>
+        <input id="color-picker" type="color" value="#ffffff">
+        <div class="horizontal_line"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>

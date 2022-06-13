@@ -2,3 +2,82 @@ body{
     margin: 0;
     padding: 0;
 }
+
+#con1{
+    display: block;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 450px;
+    background-color: #740001;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 940px;
+}
+
+.horizontal_line{
+    background-color: white;
+    width: 450px;
+    height: 1px;
+    border-top: 1px solid white;
+    margin-top: 60px;
+}
+
+.form-select{
+    max-width: 250px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+
+.mb-3{
+    max-width: 250px;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+}
+
+.form-control{
+    color: black;
+}
+
+#label1{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+}
+#label2{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+}
+#label3{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+}
+
+#label4{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+}
+
+#formSelectBooks{
+    margin-top: 5px;
+}
+
+#formSelectPerson{
+    margin-top: 5px;
+}
+
+#formSelectSpell{
+    margin-top: 5px;
+}
+
+#color-picker{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
