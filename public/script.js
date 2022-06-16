@@ -1,1 +1,7 @@
-console.log('script.js loaded');
+fetch('./Data.json')
+    .then(function(resp) {
+        return resp.json();
+    })
+    .then(function(data) {
+        console.log(data);
+    });
