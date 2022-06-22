@@ -1,0 +1,2111 @@
+{
+    "spells": [
+        {
+            "name": "Summoning Charm",
+            "incantation": "Accio",
+            "type": "Charm",
+            "effect": "Summons an object",
+            "light": "None"
+        },
+        {
+            "name": "Age Line",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Prevents people above or below a certain age from access to a target",
+            "light": "Blue"
+        },
+        {
+            "name": "Water-Making Spell",
+            "incantation": "Aguamenti",
+            "type": "Charm, Conjuration",
+            "effect": "Conjures\u00a0water",
+            "light": "Icy blue"
+        },
+        {
+            "name": "Launch an object up into the air",
+            "incantation": "Alarte Ascendare",
+            "type": "Charm",
+            "effect": "Rockets target upward",
+            "light": "Red"
+        },
+        {
+            "name": "Albus Dumbledore's Forceful Spell",
+            "incantation": "Unknown",
+            "type": "Spell",
+            "effect": "Great Force",
+            "light": "None"
+        },
+        {
+            "name": "Unlocking Charm",
+            "incantation": "Alohomora",
+            "type": "Charm",
+            "effect": "Unlocks target",
+            "light": "Invisible, blue, yellow, or purple"
+        },
+        {
+            "name": "Healing Spell",
+            "incantation": "Anapneo",
+            "type": "Healing spell, Vanishment",
+            "effect": "Clears airway",
+            "light": ""
+        },
+        {
+            "name": "Hex that grows antlers on the head",
+            "incantation": "Anteoculatia",
+            "type": "Hex",
+            "effect": "Grows antlers on head",
+            "light": "Red"
+        },
+        {
+            "name": "Anti-Cheating Spell",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Prevents cheating",
+            "light": "Purple"
+        },
+        {
+            "name": "Anti-Disapparition Jinx",
+            "incantation": "Unknown",
+            "type": "Jinx",
+            "effect": "Prevents Disapparition within a certain area",
+            "light": ""
+        },
+        {
+            "name": "Anti-intruder jinx",
+            "incantation": "Unknown",
+            "type": "Jinx",
+            "effect": "Repels intruders",
+            "light": ""
+        },
+        {
+            "name": "Antonin Dolohov's curse",
+            "incantation": "Unknown",
+            "type": "Curse",
+            "effect": "Injuries capable of killing",
+            "light": "Purple"
+        },
+        {
+            "name": "Revealing Charm",
+            "incantation": "Aparecium",
+            "type": "Charm",
+            "effect": "Reveals hidden writing",
+            "light": ""
+        },
+        {
+            "name": "Tracking spell",
+            "incantation": "Appare Vestigium",
+            "type": "Charm",
+            "effect": "Reveals traces of\u00a0magic, including footprints and track marks",
+            "light": "Swirl of gold"
+        },
+        {
+            "name": "Apparition",
+            "incantation": "None",
+            "type": "Transportation",
+            "effect": "Magically transports the caster",
+            "light": "None"
+        },
+        {
+            "name": "Aqua Eructo Charm",
+            "incantation": "Aqua Eructo",
+            "type": "Charm",
+            "effect": "Jet of\u00a0water",
+            "light": "Ice Blue"
+        },
+        {
+            "name": "Spider repelling spell",
+            "incantation": "Arania Exumai",
+            "type": "Spell",
+            "effect": "Repels spiders",
+            "light": "Blue"
+        },
+        {
+            "name": "Slowing Charm",
+            "incantation": "Arresto Momentum",
+            "type": "Charm",
+            "effect": "Slows\u00a0or stops target's velocity",
+            "light": "None"
+        },
+        {
+            "name": "Arrow-shooting spell",
+            "incantation": "Unknown",
+            "type": "Conjuration",
+            "effect": "Fires arrows from the caster's wand",
+            "light": ""
+        },
+        {
+            "name": "Ascendio",
+            "incantation": "Ascendio",
+            "type": "Charm",
+            "effect": "Lifts caster",
+            "light": "None"
+        },
+        {
+            "name": "Killing Curse",
+            "incantation": "Avada Kedavra",
+            "type": "Curse",
+            "effect": "Instantaneous death",
+            "light": "Green"
+        },
+        {
+            "name": "Avifors Spell",
+            "incantation": "Avifors\u00a0",
+            "type": "Transfiguration",
+            "effect": "Transforms the target into a bird.",
+            "light": "Blue"
+        },
+        {
+            "name": "Avenseguim",
+            "incantation": "Avenseguim",
+            "type": "Charm",
+            "effect": "Turns object into tracking device",
+            "light": "Orange"
+        },
+        {
+            "name": "Bird-Conjuring Charm",
+            "incantation": "Avis",
+            "type": "Conjuration, Charm",
+            "effect": "Conjures\u00a0birds",
+            "light": "Blue"
+        },
+        {
+            "name": "Babbling Curse",
+            "incantation": "Unknown",
+            "type": "Curse",
+            "effect": "Uncontrollable babbling",
+            "light": ""
+        },
+        {
+            "name": "Badgering",
+            "incantation": "Unknown",
+            "type": "Transfiguration",
+            "effect": "Turns target human into a badger",
+            "light": ""
+        },
+        {
+            "name": "Bat-Bogey Hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Transforms\u00a0target's bogeys into\u00a0bats",
+            "light": ""
+        },
+        {
+            "name": "Baubillious",
+            "incantation": "Baubillious",
+            "type": "Charm",
+            "effect": "Jet of white sparks",
+            "light": "White"
+        },
+        {
+            "name": "Bedazzling Hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Disguises things",
+            "light": ""
+        },
+        {
+            "name": "Bewitched Snowballs",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Charms snowballs to follow and harass a designated target",
+            "light": ""
+        },
+        {
+            "name": "Bluebell Flames",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Conjures bluebell flames",
+            "light": "Bright blue"
+        },
+        {
+            "name": "Blue sparks",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Jet of blue sparks",
+            "light": "Blue"
+        },
+        {
+            "name": "Exploding Charm",
+            "incantation": "Bombarda",
+            "type": "Charm",
+            "effect": "Small explosion",
+            "light": "None"
+        },
+        {
+            "name": "Exploding Charm 2",
+            "incantation": "Bombarda Maxima",
+            "type": "Charm",
+            "effect": "Powerful explosion",
+            "light": "White"
+        },
+        {
+            "name": "Brackium Emendo",
+            "incantation": "Brackium Emendo",
+            "type": "Healing spell, Charm",
+            "effect": "Mends bones",
+            "light": "Blue"
+        },
+        {
+            "name": "Bravery Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Enhances teammates against foes",
+            "light": ""
+        },
+        {
+            "name": "Bridge-conjuring spell",
+            "incantation": "Unknown",
+            "type": "Conjuration",
+            "effect": "Conjures bridges",
+            "light": "None"
+        },
+        {
+            "name": "Broom jinx",
+            "incantation": "Unknown",
+            "type": "Jinx",
+            "effect": "Makes a\u00a0broomstick\u00a0attempt to buck its rider off",
+            "light": ""
+        },
+        {
+            "name": "Bubble-Head Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Creates bubble protecting the head",
+            "light": ""
+        },
+        {
+            "name": "Bubble-producing spell",
+            "incantation": "Unknown",
+            "type": "Conjuration",
+            "effect": "Creates a stream of non-bursting bubbles",
+            "light": "None"
+        },
+        {
+            "name": "Hair Loss Curse",
+            "incantation": "Calvorio",
+            "type": "Curse",
+            "effect": "Removes victim's hair",
+            "light": "Red or Purple"
+        },
+        {
+            "name": "Cantis",
+            "incantation": "Cantis",
+            "type": "Jinx",
+            "effect": "Makes target sing",
+            "light": "Pink"
+        },
+        {
+            "name": "Extension Charm",
+            "incantation": "Capacious extremis",
+            "type": "Charm",
+            "effect": "Increases interior space",
+            "light": ""
+        },
+        {
+            "name": "Seize and Pull Charm",
+            "incantation": "Carpe Retractum",
+            "type": "Charm",
+            "effect": "Pull caster towards object, Pull object towards caster",
+            "light": "Orange or Purple"
+        },
+        {
+            "name": "Cascading Jinx",
+            "incantation": "Unknown",
+            "type": "Jinx",
+            "effect": "Attacks multiple enemies",
+            "light": "Blue"
+        },
+        {
+            "name": "Caterwauling Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Sets off a high-pitched shriek if entered",
+            "light": ""
+        },
+        {
+            "name": "Cauldron to Sieve",
+            "incantation": "Unknown",
+            "type": "Transfiguration",
+            "effect": "Turns a\u00a0cauldron\u00a0into a sieve",
+            "light": ""
+        },
+        {
+            "name": "Cauldron to badger",
+            "incantation": "Unknown",
+            "type": "Transformation",
+            "effect": "Transforms a\u00a0cauldron\u00a0into a\u00a0badger.",
+            "light": ""
+        },
+        {
+            "name": "Cave inimicum",
+            "incantation": "Cave inimicum",
+            "type": "Charm",
+            "effect": "Concealment",
+            "light": "None"
+        },
+        {
+            "name": "Cheering Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Creates joy",
+            "light": ""
+        },
+        {
+            "name": "Circumrota",
+            "incantation": "Circumrota",
+            "type": "Charm",
+            "effect": "Rotates an object",
+            "light": ""
+        },
+        {
+            "name": "Cistem Aperio",
+            "incantation": "Cistem Aperio",
+            "type": "Charm",
+            "effect": "Opens chests",
+            "light": "White"
+        },
+        {
+            "name": "Locking Spell",
+            "incantation": "Colloportus",
+            "type": "Charm",
+            "effect": "Locks doors",
+            "light": "None"
+        },
+        {
+            "name": "Stickfast Hex",
+            "incantation": "Colloshoo",
+            "type": "Hex",
+            "effect": "Sticks shoes to floor",
+            "light": ""
+        },
+        {
+            "name": "Colour Change Charm",
+            "incantation": "Colovaria",
+            "type": "Charm",
+            "effect": "Changes colour",
+            "light": "Red"
+        },
+        {
+            "name": "Blasting Curse",
+            "incantation": "Confringo",
+            "type": "Curse",
+            "effect": "Explosion",
+            "light": "Fiery Orange"
+        },
+        {
+            "name": "Confundus Charm",
+            "incantation": "Confundo",
+            "type": "Charm",
+            "effect": "Confuses the target",
+            "light": "Pink"
+        },
+        {
+            "name": "Conjunctivitis Curse",
+            "incantation": "Unknown",
+            "type": "Curse",
+            "effect": "Irritates eyes",
+            "light": ""
+        },
+        {
+            "name": "Cornflake skin spell",
+            "incantation": "Unknown",
+            "type": "Dark charm",
+            "effect": "Makes skin appear like\u00a0cornflakes",
+            "light": ""
+        },
+        {
+            "name": "Cracker Jinx",
+            "incantation": "Unknown",
+            "type": "Jinx",
+            "effect": "Conjures exploding\u00a0Wizard Crackers",
+            "light": ""
+        },
+        {
+            "name": "Cribbing Spell",
+            "incantation": "Unknown",
+            "type": "Spell",
+            "effect": "Assists the caster in cheating on written papers.",
+            "light": ""
+        },
+        {
+            "name": "Crinus Muto",
+            "incantation": "Crinus Muto",
+            "type": "Transfiguration",
+            "effect": "Transforms hair",
+            "light": "White"
+        },
+        {
+            "name": "Cruciatus Curse",
+            "incantation": "Crucio",
+            "type": "Curse",
+            "effect": "Excruciating pain",
+            "light": "Red or None"
+        },
+        {
+            "name": "Gouging Spell",
+            "incantation": "Defodio",
+            "type": "Charm",
+            "effect": "Carves through material",
+            "light": ""
+        },
+        {
+            "name": "Eradication Spell",
+            "incantation": "Deletrius",
+            "type": "Charm,\u00a0Counter-charm",
+            "effect": "Erases image from\u00a0Reverse Spell",
+            "light": "None"
+        },
+        {
+            "name": "Densaugeo",
+            "incantation": "Densaugeo",
+            "type": "Hex ",
+            "effect": "Elongates teeth",
+            "light": "Violet"
+        },
+        {
+            "name": "Deprimo",
+            "incantation": "Deprimo",
+            "type": "Charm",
+            "effect": "Blasts holes in ground",
+            "light": "Green"
+        },
+        {
+            "name": "Banishing Charm",
+            "incantation": "Depulso",
+            "type": "Charm",
+            "effect": "Sends target away",
+            "light": "White or Red"
+        },
+        {
+            "name": "Descendo",
+            "incantation": "Descendo",
+            "type": "Charm",
+            "effect": "Lowers target",
+            "light": "Blue"
+        },
+        {
+            "name": "Desk Into Pig",
+            "incantation": "Unknown",
+            "type": "Transfiguration",
+            "effect": "Transfigures desks into pigs",
+            "light": ""
+        },
+        {
+            "name": "Deterioration Hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Impairs foes",
+            "light": ""
+        },
+        {
+            "name": "Severing Charm",
+            "incantation": "Diffindo",
+            "type": "Charm",
+            "effect": "Cuts objects",
+            "light": "Light green, pink or red"
+        },
+        {
+            "name": "Diminuendo",
+            "incantation": "Diminuendo",
+            "type": "Charm",
+            "effect": "Shrinks objects",
+            "light": "White"
+        },
+        {
+            "name": "Dissendium",
+            "incantation": "Dissendium",
+            "type": "Charm",
+            "effect": "Reveals secret passages",
+            "light": "None"
+        },
+        {
+            "name": "Disillusionment Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Disguises target as surroundings",
+            "light": "White"
+        },
+        {
+            "name": "Draconifors Spell",
+            "incantation": "Draconifors",
+            "type": "Transfiguration",
+            "effect": "Turns\u00a0object into\u00a0dragon",
+            "light": "Fiery orange"
+        },
+        {
+            "name": "Drought Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Dries up small bodies of\u00a0water",
+            "light": ""
+        },
+        {
+            "name": "Ducklifors Jinx",
+            "incantation": "Ducklifors",
+            "type": "Transfiguration,\u00a0Jinx",
+            "effect": "Turns organisms to ducks",
+            "light": "Yellow or Purple"
+        },
+        {
+            "name": "Hardening Charm",
+            "incantation": "Duro",
+            "type": "Charm",
+            "effect": "Turns object to stone",
+            "light": "None"
+        },
+        {
+            "name": "Ears to kumquats",
+            "incantation": "Unknown",
+            "type": "Transfiguration",
+            "effect": "Transfigures\u00a0target's ears into kumquats",
+            "light": ""
+        },
+        {
+            "name": "Ear-shrivelling Curse",
+            "incantation": "Unknown",
+            "type": "Curse",
+            "effect": "Causes ears to wither",
+            "light": ""
+        },
+        {
+            "name": "Ebublio Jinx",
+            "incantation": "Ebublio",
+            "type": "Jinx",
+            "effect": "Traps target in giant bubble",
+            "light": "Blue"
+        },
+        {
+            "name": "Engorgement Charm",
+            "incantation": "Engorgio",
+            "type": "Charm",
+            "effect": "Causes swelling",
+            "light": "Icy blue"
+        },
+        {
+            "name": "Engorgio Skullus",
+            "incantation": "Engorgio Skullus",
+            "type": "Hex",
+            "effect": "Swells head",
+            "light": "Red or Purple"
+        },
+        {
+            "name": "Insect Jinx",
+            "incantation": "Entomorphis",
+            "type": "Transfiguration\u00a0Jinx",
+            "effect": "Turns into insect",
+            "light": "Red or Purple"
+        },
+        {
+            "name": "Entrail-Expelling Curse",
+            "incantation": "Unknown",
+            "type": "Curse",
+            "effect": "Expels entrails",
+            "light": ""
+        },
+        {
+            "name": "Epoximise",
+            "incantation": "Epoximise",
+            "type": "Transfiguration\u00a0spell",
+            "effect": "Bonds two objects",
+            "light": ""
+        },
+        {
+            "name": "Erecto",
+            "incantation": "Erecto",
+            "type": "Charm",
+            "effect": "Erects a structure",
+            "light": "None"
+        },
+        {
+            "name": "Evanesce",
+            "incantation": "Evanesce",
+            "type": "Transfiguration",
+            "effect": "Vanishes\u00a0objects",
+            "light": "Bluish-white"
+        },
+        {
+            "name": "Vanishing Spell",
+            "incantation": "Evanesco",
+            "type": "Transfiguration",
+            "effect": "Vanishes\u00a0things",
+            "light": "None"
+        },
+        {
+            "name": "Everte Statum",
+            "incantation": "Everte Statum",
+            "type": "Charm",
+            "effect": "Makes opponent stumble, Causes sharp pain",
+            "light": "Orange"
+        },
+        {
+            "name": "Patronus Charm",
+            "incantation": "Expecto Patronum",
+            "type": "Charm",
+            "effect": "Conjures a spirit guardian",
+            "light": "Silver"
+        },
+        {
+            "name": "Disarming Charm",
+            "incantation": "Expelliarmus",
+            "type": "Charm",
+            "effect": "Disarms an opponent",
+            "light": "Scarlet"
+        },
+        {
+            "name": "Expulso Curse",
+            "incantation": "Expulso",
+            "type": "Curse",
+            "effect": "Blows things up",
+            "light": "Blue"
+        },
+        {
+            "name": "Extinguishing Spell",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Extinguishes\u00a0fires",
+            "light": ""
+        },
+        {
+            "name": "False memory charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Implants a false\u00a0memory\u00a0in the victim",
+            "light": ""
+        },
+        {
+            "name": "Feather-light charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Minimises object's weight",
+            "light": ""
+        },
+        {
+            "name": "Ferret to human",
+            "incantation": "Unknown",
+            "type": "Transfiguration",
+            "effect": "Changes\u00a0ferrets\u00a0into\u00a0humans",
+            "light": "None"
+        },
+        {
+            "name": "Bandaging Charm",
+            "incantation": "Ferula",
+            "type": "Healing Spell, Charm, Conjuration",
+            "effect": "Bandages target",
+            "light": ""
+        },
+        {
+            "name": "Fianto Duri",
+            "incantation": "Fianto Duri",
+            "type": "Charm",
+            "effect": "Most likely hardens magical shields",
+            "light": "Blueish white"
+        },
+        {
+            "name": "Fidelius Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Conceals a secret",
+            "light": ""
+        },
+        {
+            "name": "Fiendfyre",
+            "incantation": "Unknown",
+            "type": "Curse",
+            "effect": "Unleashes\u00a0cursed\u00a0fire",
+            "light": "Fire"
+        },
+        {
+            "name": "Finestra spell",
+            "incantation": "Finestra",
+            "type": "Charm",
+            "effect": "Shatters glass",
+            "light": "Blue"
+        },
+        {
+            "name": "General Counter-Spell",
+            "incantation": "Finite",
+            "type": "Counter-spell",
+            "effect": "Terminates all\u00a0spell\u00a0effects",
+            "light": "Red"
+        },
+        {
+            "name": "Finger-removing jinx",
+            "incantation": "Unknown",
+            "type": "Jinx",
+            "effect": "Removes a person's fingers",
+            "light": ""
+        },
+        {
+            "name": "Firestorm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Ring of\u00a0fire",
+            "light": "Crimson and gold"
+        },
+        {
+            "name": "Flagrante Curse",
+            "incantation": "Flagrante",
+            "type": "Curse",
+            "effect": "Causes objects to burn on contact",
+            "light": ""
+        },
+        {
+            "name": "Flagrate",
+            "incantation": "Flagrate",
+            "type": "Charm",
+            "effect": "Writes in midair",
+            "light": "Fiery scarlet"
+        },
+        {
+            "name": "Flame-Freezing Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Makes\u00a0fire\u00a0harmless",
+            "light": "White"
+        },
+        {
+            "name": "Flask-conjuring spell",
+            "incantation": "Unknown",
+            "type": "Conjuration",
+            "effect": "Conjures flask",
+            "light": "None"
+        },
+        {
+            "name": "Flintifors",
+            "incantation": "Flintifors",
+            "type": "Transfiguration",
+            "effect": "Turns target into\u00a0matchboxes",
+            "light": ""
+        },
+        {
+            "name": "Knockback Jinx",
+            "incantation": "Flipendo",
+            "type": "Jinx",
+            "effect": "Knocks target back",
+            "light": "Blue"
+        },
+        {
+            "name": "Knockback Jinx Duo",
+            "incantation": "Flipendo",
+            "type": "Jinx",
+            "effect": "Knocks target back",
+            "light": "Red"
+        },
+        {
+            "name": "Flipendo Tria",
+            "incantation": "Flipendo Tria",
+            "type": "Jinx",
+            "effect": "More powerful version of\u00a0Flipendo",
+            "light": "Blue"
+        },
+        {
+            "name": "Flying Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Allows an object to fly",
+            "light": ""
+        },
+        {
+            "name": "Smokescreen Spell",
+            "incantation": "Fumos",
+            "type": "Charm",
+            "effect": "Defensive smokescreen",
+            "light": "Grey"
+        },
+        {
+            "name": "Fumos Duo",
+            "incantation": "Fumos Duo",
+            "type": "Charm",
+            "effect": "Multiple concealing smokescreens",
+            "light": "Dark Red"
+        },
+        {
+            "name": "Pimple Jinx",
+            "incantation": "Furnunculus",
+            "type": "Jinx",
+            "effect": "Causes pimples to erupt",
+            "light": "Gold "
+        },
+        {
+            "name": "Fur spell",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Causes fur to grow on someone",
+            "light": ""
+        },
+        {
+            "name": "Doubling Charm",
+            "incantation": "Geminio",
+            "type": "Charm",
+            "effect": "Duplicates an object",
+            "light": "None"
+        },
+        {
+            "name": "Freezing Spell",
+            "incantation": "Glacius",
+            "type": "Charm",
+            "effect": "Freezes target",
+            "light": "Blue"
+        },
+        {
+            "name": "Glacius Duo",
+            "incantation": "Glacius Duo",
+            "type": "Charm",
+            "effect": "Freezes the target",
+            "light": "Blue"
+        },
+        {
+            "name": "Glacius Tria",
+            "incantation": "Glacius Tria",
+            "type": "Charm",
+            "effect": "Freezes target enemy",
+            "light": "Blue"
+        },
+        {
+            "name": "Glisseo",
+            "incantation": "Glisseo",
+            "type": "Charm",
+            "effect": "Turns stairs into a slide",
+            "light": "None"
+        },
+        {
+            "name": "Green Sparks",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Jet of green sparks",
+            "light": "Green"
+        },
+        {
+            "name": "Gripping Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Makes holding easier",
+            "light": ""
+        },
+        {
+            "name": "Hair-thickening Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Causes hair to grow longer and thicker",
+            "light": ""
+        },
+        {
+            "name": "Harmonia Nectere Passus",
+            "incantation": "Harmonia Nectere Passus",
+            "type": "Charm",
+            "effect": "Repairs\u00a0Vanishing Cabinets",
+            "light": "None"
+        },
+        {
+            "name": "Herbifors Spell",
+            "incantation": "Herbifors",
+            "type": "Transfiguration",
+            "effect": "Transforms target into flowers",
+            "light": "Red or Purple"
+        },
+        {
+            "name": "Herbivicus Charm",
+            "incantation": "Herbivicus",
+            "type": "Charm",
+            "effect": "Rapidly grows plants",
+            "light": "Green"
+        },
+        {
+            "name": "Dumbledore's Army parchment jinx",
+            "incantation": "Unknown",
+            "type": "Jinx",
+            "effect": "Causes boils to spell \"SNEAK\" on the face of a traitor",
+            "light": ""
+        },
+        {
+            "name": "Homing spell",
+            "incantation": "Unknown",
+            "type": "Dark Arts",
+            "effect": "Offensive spells; will follow their target",
+            "light": "Orange or Green"
+        },
+        {
+            "name": "Human Presence Revealing Spell",
+            "incantation": "Homenum Revelio",
+            "type": "Charm ",
+            "effect": "Reveals human presence",
+            "light": "None"
+        },
+        {
+            "name": "Homonculous Charm",
+            "incantation": "Unknown",
+            "type": "Charm ",
+            "effect": "When cast onto a map, it enables to track the movements of every person in the mapped area",
+            "light": ""
+        },
+        {
+            "name": "Homorphus Charm",
+            "incantation": "Unknown",
+            "type": "Charm ",
+            "effect": "May temporarily change a transformed werewolf back into their human form (according to Gilderoy Lockhart, it cures lycanthropy)",
+            "light": ""
+        },
+        {
+            "name": "Horn tongue hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Transforms\u00a0target's tongue into a horn",
+            "light": ""
+        },
+        {
+            "name": "Horton-Keitch Braking Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Allow broomsticks to brake more easily",
+            "light": ""
+        },
+        {
+            "name": "Horcrux-making spell",
+            "incantation": "Unknown",
+            "type": "Dark Arts",
+            "effect": "Prepared a receptacle to become a\u00a0Horcrux",
+            "light": ""
+        },
+        {
+            "name": "Hot-Air Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Jet of hot air",
+            "light": "None"
+        },
+        {
+            "name": "Hour-Reversal Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Reverses time",
+            "light": "Blue"
+        },
+        {
+            "name": "Hover Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Makes objects hover",
+            "light": "Pink"
+        },
+        {
+            "name": "Hurling Hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Unclear, possibly causes a\u00a0broomstick\u00a0to attempt to hurl its rider off.",
+            "light": ""
+        },
+        {
+            "name": "Illegibilus",
+            "incantation": "Illegibilus",
+            "type": "Charm",
+            "effect": "Makes text illegible",
+            "light": ""
+        },
+        {
+            "name": "Freezing Charm",
+            "incantation": "Immobulus",
+            "type": "Charm",
+            "effect": "Stops movement and actions of the target",
+            "light": "Blue"
+        },
+        {
+            "name": "Impediment Jinx",
+            "incantation": "Impedimenta",
+            "type": "Jinx",
+            "effect": "Hinders movement",
+            "light": "Turquoise"
+        },
+        {
+            "name": "Imperius Curse",
+            "incantation": "Imperio",
+            "type": "Curse",
+            "effect": "Total control over the victim",
+            "light": "None"
+        },
+        {
+            "name": "Imperturbable Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Invisible barrier",
+            "light": ""
+        },
+        {
+            "name": "Impervius Charm",
+            "incantation": "Impervius ",
+            "type": "Charm",
+            "effect": "Waterproofs\u00a0an object",
+            "light": "None"
+        },
+        {
+            "name": "Inanimatus Conjurus Spell",
+            "incantation": "Unknown",
+            "type": "Transfiguration",
+            "effect": "Presumably\u00a0conjuresinanimate objects",
+            "light": ""
+        },
+        {
+            "name": "Incarcerous Spell",
+            "incantation": "Incarcerous",
+            "type": "Conjuration",
+            "effect": "Binds target in ropes",
+            "light": "None"
+        },
+        {
+            "name": "Fire-Making Spell",
+            "incantation": "Incendio",
+            "type": "Charm",
+            "effect": "Conjures\u00a0flames",
+            "light": "Orange and Red"
+        },
+        {
+            "name": "Incendio Duo Spell",
+            "incantation": "Incendio",
+            "type": "Charm",
+            "effect": "Conjures\u00a0flames",
+            "light": "Green"
+        },
+        {
+            "name": "Incendio Tria",
+            "incantation": "Incendio Tria",
+            "type": "Charm",
+            "effect": "Conjures blue\u00a0flames",
+            "light": "Blue"
+        },
+        {
+            "name": "Inflating Charm",
+            "incantation": "Inflatus",
+            "type": "Charm",
+            "effect": "Inflates target",
+            "light": "Blue"
+        },
+        {
+            "name": "Informous Spell",
+            "incantation": "Informous",
+            "type": "Charm",
+            "effect": "Adds to the\u00a0Folio Bruti",
+            "light": "Blue"
+        },
+        {
+            "name": "Instant Scalping Hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Instantly scalps hair",
+            "light": ""
+        },
+        {
+            "name": "Intruder Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Detects intruders and sounds an alarm",
+            "light": ""
+        },
+        {
+            "name": "Jelly-Legs Curse",
+            "incantation": "Locomotor Wibbly",
+            "type": "Curse,\u00a0Jinx",
+            "effect": "Legs become wobbly",
+            "light": "Orange"
+        },
+        {
+            "name": "Jelly-Brain Jinx",
+            "incantation": "Unknown",
+            "type": "Jinx",
+            "effect": "Dulls mental abilities",
+            "light": ""
+        },
+        {
+            "name": "Jelly-Fingers Curse",
+            "incantation": "Unknown",
+            "type": "Curse",
+            "effect": "Fingers become wobbly",
+            "light": ""
+        },
+        {
+            "name": "Knee-reversal hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Puts knees on backward",
+            "light": ""
+        },
+        {
+            "name": "Lacarnum Inflamari",
+            "incantation": "Lacarnum Inflamari",
+            "type": "Charm",
+            "effect": "Ignites\u00a0cloaks",
+            "light": "Orange"
+        },
+        {
+            "name": "Langlock",
+            "incantation": "Langlock",
+            "type": "Jinx",
+            "effect": "Sticks tongue to roof of the mouth",
+            "light": "None"
+        },
+        {
+            "name": "Lapifors Spell",
+            "incantation": "Lapifors",
+            "type": "Transfiguration",
+            "effect": "Turns target into rabbit",
+            "light": "Green"
+        },
+        {
+            "name": "Leek jinx",
+            "incantation": "Unknown",
+            "type": "Jinx",
+            "effect": "Leeks sprout from ears",
+            "light": ""
+        },
+        {
+            "name": "Legilimency Spell",
+            "incantation": "Legilimens",
+            "type": "Charm",
+            "effect": "Lets caster see into the mind of another person",
+            "light": "Psychadelic transparent wave"
+        },
+        {
+            "name": "Levicorpus",
+            "incantation": "Levicorpus",
+            "type": "Jinx",
+            "effect": "Suspends people by the ankles",
+            "light": "Green"
+        },
+        {
+            "name": "Liberacorpus",
+            "incantation": "Liberacorpus",
+            "type": "Counter-jinx",
+            "effect": "Counteracts\u00a0Levicorpus",
+            "light": "None"
+        },
+        {
+            "name": "Locomotion Charm",
+            "incantation": "Locomotor",
+            "type": "Charm",
+            "effect": "Moves objects in midair",
+            "light": "None"
+        },
+        {
+            "name": "Leg-Locker Curse",
+            "incantation": "Locomotor Mortis",
+            "type": "Curse",
+            "effect": "Sticks legs together",
+            "light": "Purple"
+        },
+        {
+            "name": "Wand-Lighting Charm",
+            "incantation": "Lumos",
+            "type": "Charm",
+            "effect": "Illuminates the\u00a0wand\u00a0tip",
+            "light": "White"
+        },
+        {
+            "name": "Wand-Lighting Charm Duo",
+            "incantation": "Lumos Duo",
+            "type": "Charm",
+            "effect": "Focused beam of light",
+            "light": "White"
+        },
+        {
+            "name": "Lumos Maxima",
+            "incantation": "Lumos Maxima",
+            "type": "Charm",
+            "effect": "Produces bright light",
+            "light": "White"
+        },
+        {
+            "name": "Lumos Solem Spell",
+            "incantation": "Lumos Solem",
+            "type": "Charm",
+            "effect": "Produces sunlight",
+            "light": "Bright yellow"
+        },
+        {
+            "name": "Magicus Extremos",
+            "incantation": "Magicus Extremos",
+            "type": "Charm",
+            "effect": "Temporarily increases casters' spell power",
+            "light": "Pink"
+        },
+        {
+            "name": "Melofors Jinx",
+            "incantation": "Melofors",
+            "type": "Conjuration,\u00a0Jinx",
+            "effect": "Encases head in\u00a0pumpkin",
+            "light": "Orange"
+        },
+        {
+            "name": "Meteolojinx Recanto",
+            "incantation": "Meteolojinx Recanto",
+            "type": "Counter-charm",
+            "effect": "Causes weather effects caused by incantations to cease",
+            "light": "None"
+        },
+        {
+            "name": "Tongue-Tying Curse",
+            "incantation": "Mimblewimble",
+            "type": "Curse",
+            "effect": "Ties tongue in knot",
+            "light": "Blue"
+        },
+        {
+            "name": "Ministry of Magic Fog",
+            "incantation": "Unknown",
+            "type": "Patented\u00a0Charm",
+            "effect": "Produces special fog (for concealment of certain locations)",
+            "light": ""
+        },
+        {
+            "name": "Mobiliarbus",
+            "incantation": "Mobiliarbus",
+            "type": "Charm",
+            "effect": "Levitates\u00a0wooden things",
+            "light": "Blue"
+        },
+        {
+            "name": "Mobilicorpus",
+            "incantation": "Mobilicorpus",
+            "type": "Charm",
+            "effect": "Moves bodies",
+            "light": "None"
+        },
+        {
+            "name": "Cushioning Charm",
+            "incantation": "Molliare",
+            "type": "Charm",
+            "effect": "Invisible cushion",
+            "light": ""
+        },
+        {
+            "name": "Dark Mark",
+            "incantation": "Morsmordre",
+            "type": "Curse",
+            "effect": "Conjures\u00a0Dark Mark",
+            "light": "Green"
+        },
+        {
+            "name": "Curse of the Bogies",
+            "incantation": "Mucus ad Nauseam",
+            "type": "Curse",
+            "effect": "Nasty\u00a0cold\u00a0& runny nose",
+            "light": "Green"
+        },
+        {
+            "name": "Muffliato Charm",
+            "incantation": "Muffliato ",
+            "type": "Charm",
+            "effect": "Conceals sound",
+            "light": "None"
+        },
+        {
+            "name": "Multicorfors Spell",
+            "incantation": "Multicorfors ",
+            "type": "Transfiguration",
+            "effect": "Changes clothes",
+            "light": "Red"
+        },
+        {
+            "name": "Mutatio Skullus",
+            "incantation": "Mutatio Skullus",
+            "type": "Hex",
+            "effect": "Grows extra heads",
+            "light": ""
+        },
+        {
+            "name": "Wand-Extinguishing Charm",
+            "incantation": "Nox",
+            "type": "Charm",
+            "effect": "Extinguishes\u00a0wandlight",
+            "light": ""
+        },
+        {
+            "name": "Nebulus",
+            "incantation": "Nebulus",
+            "type": "Charm",
+            "effect": "Conjures fog",
+            "light": "Grey"
+        },
+        {
+            "name": "Oculus Reparo",
+            "incantation": "Oculus Reparo",
+            "type": "Charm",
+            "effect": "Repairs\u00a0glasses",
+            "light": "None"
+        },
+        {
+            "name": "Obliteration Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Removes footprints",
+            "light": ""
+        },
+        {
+            "name": "Memory Charm",
+            "incantation": "Obliviate",
+            "type": "Charm",
+            "effect": "Erases\u00a0memories",
+            "light": "Green"
+        },
+        {
+            "name": "Obscuro",
+            "incantation": "Obscuro",
+            "type": "Conjuration",
+            "effect": "Blindfolds target",
+            "light": "None"
+        },
+        {
+            "name": "Oppugno Jinx",
+            "incantation": "Oppugno ",
+            "type": "Jinx",
+            "effect": "Assaults target with directed object(s)",
+            "light": "None"
+        },
+        {
+            "name": "Orbis Jinx",
+            "incantation": "Orbis",
+            "type": "Jinx",
+            "effect": "Sucks the target into the ground",
+            "light": "Blue"
+        },
+        {
+            "name": "Orchideous",
+            "incantation": "Orchideous",
+            "type": "Conjuration",
+            "effect": "Conjures flowers",
+            "light": "Pink"
+        },
+        {
+            "name": "Oscausi",
+            "incantation": "Oscausi",
+            "type": "Dark charm",
+            "effect": "Seals mouth",
+            "light": "White"
+        },
+        {
+            "name": "Pack",
+            "incantation": "Pack",
+            "type": "Charm",
+            "effect": "Packs luggage",
+            "light": "None"
+        },
+        {
+            "name": "Papyrus Reparo",
+            "incantation": "Papyrus Reparo",
+            "type": "Charm",
+            "effect": "Mends torn paper",
+            "light": "None"
+        },
+        {
+            "name": "Patented Daydream Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Makes the user daydream for 30 minutes",
+            "light": ""
+        },
+        {
+            "name": "Partis Temporus",
+            "incantation": "Partis Temporus",
+            "type": "Charm",
+            "effect": "Parts the target",
+            "light": "None"
+        },
+        {
+            "name": "Pepper breath hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Inflicts fiery hot breath",
+            "light": ""
+        },
+        {
+            "name": "Periculum",
+            "incantation": "Periculum",
+            "type": "Charm",
+            "effect": "Burst of red sparks",
+            "light": "Red"
+        },
+        {
+            "name": "Permanent Sticking Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Sticks object permanently in place",
+            "light": ""
+        },
+        {
+            "name": "Peskipiksi Pesternomi",
+            "incantation": "Peskipiksi Pesternomi",
+            "type": "Charm",
+            "effect": "Nothing (supposedly captures\u00a0pixies)",
+            "light": "None"
+        },
+        {
+            "name": "Full Body-Bind Curse",
+            "incantation": "Petrificus Totalus",
+            "type": "Curse",
+            "effect": "Temporary Paralysis",
+            "light": "White"
+        },
+        {
+            "name": "Piertotum Locomotor",
+            "incantation": "Piertotum Locomotor",
+            "type": "Charm",
+            "effect": "Animates target",
+            "light": "None or Green"
+        },
+        {
+            "name": "Piscifors",
+            "incantation": "Piscifors",
+            "type": "Transfiguration",
+            "effect": "Turns target into fish",
+            "light": "Blue"
+        },
+        {
+            "name": "Placement Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Places object on target",
+            "light": ""
+        },
+        {
+            "name": "Four-Point Spell",
+            "incantation": "Point Me",
+            "type": "Spell",
+            "effect": "Wand points due north",
+            "light": "None"
+        },
+        {
+            "name": "Portus",
+            "incantation": "Portus",
+            "type": "Charm",
+            "effect": "Turns object into\u00a0Portkey",
+            "light": "Blue"
+        },
+        {
+            "name": "Reverse Spell",
+            "incantation": "Prior Incantato",
+            "type": "Charm",
+            "effect": "Shows the previous spells cast by a wand",
+            "light": "Gold"
+        },
+        {
+            "name": "Protean Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Links objects",
+            "light": ""
+        },
+        {
+            "name": "Shield Charm",
+            "incantation": "Protego",
+            "type": "Charm",
+            "effect": "Reflects spells and blocks physical forces",
+            "light": "Invisible on its own, reflects light of spell"
+        },
+        {
+            "name": "Protego Diabolica",
+            "incantation": "Protego Diabolica",
+            "type": "Dark Arts",
+            "effect": "Ring of protective black fire that only burns the caster's enemies whilst leaving their allies unharmed",
+            "light": ""
+        },
+        {
+            "name": "Protego horribilis",
+            "incantation": "Protego horribilis",
+            "type": "Charm",
+            "effect": "Summons a powerful protective barrier",
+            "light": ""
+        },
+        {
+            "name": "Protego Maxima",
+            "incantation": "Protego Maxima",
+            "type": "Charm",
+            "effect": "Summons a large protective barrier",
+            "light": "White"
+        },
+        {
+            "name": "Protego totalum",
+            "incantation": "Protego totalum",
+            "type": "Charm",
+            "effect": "Shields an area",
+            "light": "None"
+        },
+        {
+            "name": "Purple Firecrackers",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Exploding firecrackers",
+            "light": ""
+        },
+        {
+            "name": "Pus-squirting hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Causes yellowish goo to squirt from one's nose",
+            "light": "None (bang)"
+        },
+        {
+            "name": "Quietening Charm",
+            "incantation": "Quietus",
+            "type": "Charm",
+            "effect": "Quietens target",
+            "light": "None"
+        },
+        {
+            "name": "Head Shrink Spell",
+            "incantation": "Redactum Skullus",
+            "type": "Hex,\u00a0Counter-curse",
+            "effect": "Shrinks head",
+            "light": "Red or Purple"
+        },
+        {
+            "name": "Shrinking Charm",
+            "incantation": "Reducio",
+            "type": "Charm",
+            "effect": "Shrinks target",
+            "light": "Purple"
+        },
+        {
+            "name": "Reductor Curse",
+            "incantation": "Reducto",
+            "type": "Curse",
+            "effect": "Destroys solid objects",
+            "light": "Blue"
+        },
+        {
+            "name": "Refilling Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Refills beverage containers",
+            "light": "None"
+        },
+        {
+            "name": "Reparifors",
+            "incantation": "Reparifors",
+            "type": "Healing spell, Charm",
+            "effect": "Heals minor magically induced ailments",
+            "light": "Purple"
+        },
+        {
+            "name": "Reverte",
+            "incantation": "Reverte",
+            "type": "Charm",
+            "effect": "Returns objects to their original positions or states",
+            "light": ""
+        },
+        {
+            "name": "Revulsion Jinx",
+            "incantation": "Relashio",
+            "type": "Jinx",
+            "effect": "Forces target to let go",
+            "light": "Purple"
+        },
+        {
+            "name": "Reviving Spell",
+            "incantation": "Rennervate",
+            "type": "Charm",
+            "effect": "Awakens victim",
+            "light": "Red"
+        },
+        {
+            "name": "Reparifarge",
+            "incantation": "Reparifarge",
+            "type": "Untransfiguration",
+            "effect": "Reverses the effects of an incomplete Transformation spell",
+            "light": "White"
+        },
+        {
+            "name": "Mending Charm",
+            "incantation": "Reparo",
+            "type": "Charm",
+            "effect": "Fixes broken objects",
+            "light": "None"
+        },
+        {
+            "name": "Muggle-Repelling Charm",
+            "incantation": "Repello Muggletum",
+            "type": "Charm",
+            "effect": "Repels Muggles",
+            "light": "None (haze)"
+        },
+        {
+            "name": "Repello Inimicum",
+            "incantation": "Repello Inimicum",
+            "type": "Charm",
+            "effect": "Repels enemies. If used with Protego Maxima and Fianto Duri, it disintegrates anything that comes in contact with the barrier.",
+            "light": "Blueish white"
+        },
+        {
+            "name": "Revelio Charm",
+            "incantation": "Revelio",
+            "type": "Charm",
+            "effect": "Reveals secrets about a person or object",
+            "light": "Blue"
+        },
+        {
+            "name": "Tickling Charm",
+            "incantation": "Rictusempra",
+            "type": "Charm",
+            "effect": "Tickles and weakens",
+            "light": "Silver"
+        },
+        {
+            "name": "Boggart-Banishing Spell",
+            "incantation": "Riddikulus",
+            "type": "Charm",
+            "effect": "Turns a\u00a0Boggart\u00a0into something amusing",
+            "light": "None"
+        },
+        {
+            "name": "Rose Growth",
+            "incantation": "Unknown",
+            "type": "Charm,\u00a0Transfiguration",
+            "effect": "Accelerates the growth of a\u00a0rosebush",
+            "light": ""
+        },
+        {
+            "name": "Rowboat spell",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Causes a rowboat to propel itself.",
+            "light": ""
+        },
+        {
+            "name": "Salvio hexia",
+            "incantation": "Salvio hexia",
+            "type": "Charm",
+            "effect": "Hex deflection",
+            "light": "None (haze)"
+        },
+        {
+            "name": "Sardine hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Victim sneezes\u00a0sardines",
+            "light": ""
+        },
+        {
+            "name": "Sauce-making spell",
+            "incantation": "Unknown",
+            "type": "Conjuration",
+            "effect": "Conjures sauce",
+            "light": "None"
+        },
+        {
+            "name": "Minerva McGonagall's fire-creating spell",
+            "incantation": "Unknown",
+            "type": "Spell",
+            "effect": "Creates fire",
+            "light": "Orange"
+        },
+        {
+            "name": "Scouring Charm",
+            "incantation": "Scourgify",
+            "type": "Charm",
+            "effect": "Cleans objects",
+            "light": "None"
+        },
+        {
+            "name": "Sealant Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Seals envelopes",
+            "light": ""
+        },
+        {
+            "name": "Sea urchin jinx",
+            "incantation": "Unknown",
+            "type": "Transfiguration\u00a0jinx",
+            "effect": "Makes tiny spikes erupt all over the victim",
+            "light": ""
+        },
+        {
+            "name": "Sectumsempra",
+            "incantation": "Sectumsempra",
+            "type": "Curse",
+            "effect": "Lacerates target",
+            "light": "White"
+        },
+        {
+            "name": "Shield penetration spell",
+            "incantation": "Unknown",
+            "type": "Spell",
+            "effect": "Used to break down magical shields",
+            "light": "Bluish-white"
+        },
+        {
+            "name": "Shooting spell",
+            "incantation": "Unknown",
+            "type": "Spell",
+            "effect": "Small explosion with a gunshot-sound",
+            "light": "None"
+        },
+        {
+            "name": "Smashing spell",
+            "incantation": "Unknown",
+            "type": "Curse",
+            "effect": "Explosive",
+            "light": "Blue"
+        },
+        {
+            "name": "Snake Summons Spell",
+            "incantation": "Serpensortia",
+            "type": "Conjuration",
+            "effect": "Conjures\u00a0snake",
+            "light": "White"
+        },
+        {
+            "name": "Silencing Charm",
+            "incantation": "Silencio",
+            "type": "Charm",
+            "effect": "Silences target",
+            "light": "None"
+        },
+        {
+            "name": "Skurge Charm",
+            "incantation": "Skurge",
+            "type": "Charm",
+            "effect": "Cleans ectoplasm, Frightens ghosts and other spirits",
+            "light": "Green"
+        },
+        {
+            "name": "Slippery Jinx",
+            "incantation": "Unknown",
+            "type": "Jinx",
+            "effect": "Makes object slippery",
+            "light": ""
+        },
+        {
+            "name": "Slug-vomiting Charm",
+            "incantation": "Slugulus Eructo",
+            "type": "Curse",
+            "effect": "Victim vomits\u00a0slugs",
+            "light": "Green"
+        },
+        {
+            "name": "Sonorous Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Emits a magnified roar from the tip of the wand",
+            "light": "Orange"
+        },
+        {
+            "name": "Amplifying Charm",
+            "incantation": "Sonorus",
+            "type": "Charm",
+            "effect": "Loudens target",
+            "light": "None"
+        },
+        {
+            "name": "Specialis Revelio",
+            "incantation": "Specialis Revelio",
+            "type": "Charm",
+            "effect": "Reveals spells cast on objects or potions",
+            "light": "None"
+        },
+        {
+            "name": "Sponge-Knees Curse",
+            "incantation": "Unknown",
+            "type": "Curse",
+            "effect": "Causes the target's legs to become spongy",
+            "light": ""
+        },
+        {
+            "name": "Softening Charm",
+            "incantation": "Spongify",
+            "type": "Charm",
+            "effect": "Softens objects",
+            "light": "Purple or Orange"
+        },
+        {
+            "name": "Squiggle Quill",
+            "incantation": "Unknown",
+            "type": "Transfiguration",
+            "effect": "Transfigures writing quills into worms",
+            "light": ""
+        },
+        {
+            "name": "Stealth Sensoring Spell",
+            "incantation": "Unknown",
+            "type": "Spell",
+            "effect": "Detects those under\u00a0magicaldisguise.",
+            "light": ""
+        },
+        {
+            "name": "Steleus",
+            "incantation": "Steleus",
+            "type": "Hex",
+            "effect": "Causes target to sneeze",
+            "light": "Green"
+        },
+        {
+            "name": "Stinging Jinx",
+            "incantation": "Unknown",
+            "type": "Jinx,\u00a0Hex",
+            "effect": "Stings flesh",
+            "light": "White"
+        },
+        {
+            "name": "Stretching Jinx",
+            "incantation": "Unknown",
+            "type": "Jinx",
+            "effect": "Expands the target",
+            "light": ""
+        },
+        {
+            "name": "Stunning Spell",
+            "incantation": "Stupefy",
+            "type": "Charm",
+            "effect": "Knocks out target",
+            "light": "Red"
+        },
+        {
+            "name": "Supersensory Charm",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Superior perception",
+            "light": ""
+        },
+        {
+            "name": "Surgito",
+            "incantation": "Surgito",
+            "type": "Counter-charm",
+            "effect": "Removes enchantments",
+            "light": ""
+        },
+        {
+            "name": "Switching Spell",
+            "incantation": "Unknown",
+            "type": "Transfiguration",
+            "effect": "Switches\u00a0two objects",
+            "light": "White"
+        },
+        {
+            "name": "Taboo",
+            "incantation": "Unknown",
+            "type": "Curse",
+            "effect": "When a word is spoken, the caster is alerted and protective enchantments around the speaker are weakened.",
+            "light": "None"
+        },
+        {
+            "name": "Tail-growing hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Gives the victim a tail",
+            "light": ""
+        },
+        {
+            "name": "Dancing Feet Spell",
+            "incantation": "Tarantallegra",
+            "type": "Jinx",
+            "effect": "Sends legs out of control",
+            "light": ""
+        },
+        {
+            "name": "Teacup to tortoise",
+            "incantation": "Unknown",
+            "type": "Transfiguration",
+            "effect": "Transforms a teacup into a tortoise",
+            "light": "Blue"
+        },
+        {
+            "name": "Teapot to tortoise",
+            "incantation": "Unknown",
+            "type": "Transfiguration",
+            "effect": "Transforms a teapot into a tortoise",
+            "light": "Orange"
+        },
+        {
+            "name": "Teeth-straightening spell",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Straightens teeth",
+            "light": ""
+        },
+        {
+            "name": "Teleportation spell",
+            "incantation": "Unknown",
+            "type": "Spell",
+            "effect": "Makes objects teleport elsewhere",
+            "light": ""
+        },
+        {
+            "name": "Tentaclifors",
+            "incantation": "Tentaclifors",
+            "type": "Transfiguration\u00a0Jinx",
+            "effect": "Turns\u00a0victim's head into tentacle",
+            "light": "Purple"
+        },
+        {
+            "name": "Tergeo",
+            "incantation": "Tergeo",
+            "type": "Charm",
+            "effect": "Cleans up objects",
+            "light": "None"
+        },
+        {
+            "name": "Tickling Hex",
+            "incantation": "Titillando",
+            "type": "Hex",
+            "effect": "Tickles and weakens",
+            "light": "Purple"
+        },
+        {
+            "name": "Toenail-growing hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Causes its victim's toenails to grow alarmingly fast",
+            "light": ""
+        },
+        {
+            "name": "Transmogrifian Torture",
+            "incantation": "Unknown",
+            "type": "Curse",
+            "effect": "Tortures, possibly by transfiguring the target to death",
+            "light": ""
+        },
+        {
+            "name": "Trip Jinx",
+            "incantation": "Unknown",
+            "type": "Jinx",
+            "effect": "Trips victim",
+            "light": ""
+        },
+        {
+            "name": "Twitchy-Ears Hex",
+            "incantation": "Unknown",
+            "type": "Hex",
+            "effect": "Makes victim's ears twitch",
+            "light": ""
+        },
+        {
+            "name": "Unbreakable Charm",
+            "incantation": "Unknown",
+            "type": "Charm ",
+            "effect": "Makes object unbreakable",
+            "light": ""
+        },
+        {
+            "name": "Unbreakable Vow",
+            "incantation": "Unknown",
+            "type": "Spell",
+            "effect": "Magical\u00a0vow that is fatal\u00a0if broken",
+            "light": "Red"
+        },
+        {
+            "name": "Unsupported flight",
+            "incantation": "Unknown",
+            "type": "Spell",
+            "effect": "Allows a\u00a0witch or wizard\u00a0to fly unaided",
+            "light": ""
+        },
+        {
+            "name": "Vacuum cleaner spell",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Cleans an object like a vacuum cleaner",
+            "light": "None"
+        },
+        {
+            "name": "Ventus Jinx",
+            "incantation": "Ventus",
+            "type": "Jinx",
+            "effect": "Jet of spiralling wind",
+            "light": "Grey"
+        },
+        {
+            "name": "Ventus Duo",
+            "incantation": "Ventus Duo",
+            "type": "Jinx",
+            "effect": "Creates a stronger jet of wind compared to\u00a0Ventus",
+            "light": ""
+        },
+        {
+            "name": "Vera Verto",
+            "incantation": "Vera Verto",
+            "type": "Transfiguration",
+            "effect": "Transforms\u00a0animals\u00a0into\u00a0water\u00a0goblets",
+            "light": "Crystal clear"
+        },
+        {
+            "name": "Verdillious",
+            "incantation": "Verdillious",
+            "type": "Charm",
+            "effect": "Causes the wand tip to burn like a sparkler whilst damaging the foe.",
+            "light": "Green"
+        },
+        {
+            "name": "Verdimillious Charm",
+            "incantation": "Verdimillious",
+            "type": "Charm",
+            "effect": "Emits green sparks from the wand that can: Do damage to opponents , Reveal hidden things",
+            "light": "Green"
+        },
+        {
+            "name": "Verdimillious Duo Spell",
+            "incantation": "Verdimillious",
+            "type": "Charm",
+            "effect": "Emits green sparks from the wand that can: Do damage to opponents , Reveal hidden things",
+            "light": "Green"
+        },
+        {
+            "name": "Vermiculus Jinx",
+            "incantation": "Vermiculus",
+            "type": "Jinx",
+            "effect": "Turns things into worms",
+            "light": "Yellow"
+        },
+        {
+            "name": "Red Sparks",
+            "incantation": "Vermillious",
+            "type": "Charm",
+            "effect": "Jet of red sparks",
+            "light": "Red"
+        },
+        {
+            "name": "Snake-Vanishing Spell",
+            "incantation": "Vipera Evanesca",
+            "type": "Vanishment",
+            "effect": "Vanishes\u00a0snakes",
+            "light": "Black smoke"
+        },
+        {
+            "name": "Vulnera Sanentur",
+            "incantation": "Vulnera Sanentur",
+            "type": "Healing spell, Counter-curse",
+            "effect": "Slows blood flow, Clears residue, Knits wounds",
+            "light": "None"
+        },
+        {
+            "name": "Waddiwasi",
+            "incantation": "Waddiwasi",
+            "type": "Jinx",
+            "effect": "Propels wad at the target",
+            "light": "None"
+        },
+        {
+            "name": "Washing up spell",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Cleans dishes",
+            "light": "None"
+        },
+        {
+            "name": "Levitation Charm",
+            "incantation": "Wingardium Leviosa",
+            "type": "Charm",
+            "effect": "Makes objects\u00a0fly",
+            "light": "None"
+        },
+        {
+            "name": "White sparks",
+            "incantation": "Unknown",
+            "type": "Charm",
+            "effect": "Jet of white sparks",
+            "light": "White"
+        },
+        {
+            "name": "Episkey",
+            "incantation": "Episkey",
+            "type": "Healing spell, Charm",
+            "effect": "Heals minor injuries",
+            "light": "None"
+        }
+    ]
+}

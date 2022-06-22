@@ -1,3 +1,4 @@
+from base64 import encode
 import json 
 import csv 
 
@@ -12,4 +13,17 @@ with open('Data.csv', "r") as f:
         # print(row)
     
 with open('Data.json', 'w') as f:
+    json.dump(data, f, indent=4)
+
+
+with open('Spells.csv', "r", encoding='utf-8') as f:
+    reader = csv.reader(f, delimiter=';')
+    next(reader)
+    data = {'spells': []}
+    for row in reader:
+        data['spells'].append({'name':row[0], 'incantation': row[1],
+        'type': row[2], 'effect': row[3], 'light': row[4]})
+        # print(row)
+    
+with open('Spells.json', 'w', encoding='utf8') as f:
     json.dump(data, f, indent=4)
