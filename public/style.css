@@ -10,9 +10,8 @@ body{
     padding-right: 0;
     max-width: 450px;
     background-color: #740001;
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
-    height: 940px;
+    border: 5px solid #d3a625;
+    height: 960px;
 }
 
 #con2{
@@ -22,17 +21,17 @@ body{
 
 .horizontal_line{
     background-color: white;
-    width: 450px;
+    width: 440px;
     height: 1px;
-    border-top: 1px solid white;
-    margin-top: 60px;
+    border-top: 1px solid #d3a625;
+    margin-top: 40px;
 }
 
 .form-select{
     max-width: 250px;
     height: 40px;
     margin-left: 50px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 
@@ -87,7 +86,7 @@ body{
 }
 
 .form-check{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 50px;
     color: white;
 }

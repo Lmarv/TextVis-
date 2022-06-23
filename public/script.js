@@ -12,7 +12,13 @@ fetch('./Spells.json')
                 continue
             }
             else{
-                spells.push(data.spells[i].incantation);
+                if(spells.includes(data.spells[i].incantation)){
+                    // do nothing
+                }
+                else{
+                    spells.push(data.spells[i].incantation);
+                }
+                
             }
         }
         createSpellOptions();
