@@ -15,6 +15,18 @@ with open('Data.csv', "r") as f:
 with open('Data.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, indent=4)
 
+with open('./books/Book7.csv', "r") as f:
+    reader = csv.reader(f, delimiter='|')
+    next(reader)
+    data = {'entry': []}
+    for row in reader:
+        data['entry'].append({'sentence': row[0],
+        'sentiment': row[1], 'chapter': row[2], 'book': row[3],
+        'spells': row[4], 'characters': row[5], 'groups': row[6]})
+        # print(row)
+    
+with open('Book7.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, indent=4)
 
 with open('Spells.csv', "r", encoding='utf-8') as f:
     reader = csv.reader(f, delimiter=';')
