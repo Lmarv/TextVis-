@@ -1,6 +1,6 @@
 var spells = [];
-var names = ['Hannah Abbot', 'Aragog', 'Ludo Bagman', 'Bane', 'The Bloody Baron', 'Bathilda Bagshot', 'Buckbeak', 'Katie Bell', 'Crookshanks', 'Cuthbert Binns', 'Phineas Nigellus Black', 'Regulus Arcturus Black', 'Sirius Black', 'Amelia Bones', 'Susan Bones', 'Terry Boot', 'Lavender Brown', 'Millicent Bullstrode', 'Charity Burbage', 'Frank Bryce', 'Alecto Carrow', 'Amycus Carrow', 'Reginald Cattermole', 'Cho Chang', 'Penelope Clearwater', 'Vincent Crabbe', 'Colin Creevy', 'Dennis Creevy', 'Dirk Cresswell', 'Barty Crouch Sr', 'Barty Crouch Jr', 'John Dawlish', 'Fleur Delacour', 'Gabrielle Delacour', 'Dedalus Diggle', 'Amos Diggory', 'Cedric Diggory', 'Dobby', 'Elphias Doge', 'Antonin Dolohov', 'Aberforth Dumbledore', 'Albus Dumbledore', 'Ariana Dumbledore', 'Kendra Dumbledore', 'Percival Dumbledore', 'Dudley Dursley', 'Marge Dursley', 'Petunia Dursley', 'Vernon Dursley', 'Marietta Edgecombe', 'Errol', 'Fang', 'The Fat Friar', 'Fawkes', 'Arabella Figg', 'Argus Filch', 'Justin Finch-Fletchley', 'Seamus Finnigan', 'Firenze', 'Nicolas Flamel', 'Mundungus Fletcher', 'Filius Flitwick', 'Fluffy', 'Cornelius Fudge', 'Marvolo Gaunt', 'Merope Gaunt', 'Morfin Gaunt', 'Anthony Goldstein', 'Gregory Goyle', 'Hermione Granger', 'Grawp', 'Gregorovitch', 'Fenrir Greyback', 'Gellert Grindelwald', 'Wilhelmina Grubbly-Plank', 'Godric Gryffindor', 'Rubeus Hagrid', 'Hedwig', 'Hokey', 'Rolanda Hooch', 'Mafalda Hopkirk', 'Helga Hufflepuff', 'Angelina Johnson', 'Lee Jordan', 'Bertha Jorkins', 'Igor Karkaroff', 'Kreacher', 'Viktor Krum', 'Bellatrix Lestrange', 'Gilderoy Lockhart', 'Alice Longbottom', 'Frank Longbottom', 'Augusta Longbottom', 'Neville Longbottom', 'Luna Lovegood', 'Xenophilius Lovegood', 'Remus Lupin', 'Walden Macnair', 'Magorian', 'Draco Malfoy', 'Lucius Malfoy', 'Narcissa Malfoy', 'Madam Malkin', 'Griselda Marchbanks', 'Olympe Maxime', 'Ernie Macmillan', 'Minerva McGonagall', 'Eloise Midgen', 'Cormac McLaggen', 'Graham Montague', 'Alastor Moody', 'Aunt Muriel', 'Nagini', 'Nearly Headless Nick', 'Norbert', 'Theodore Nott', 'Bob Ogden', 'Garrick Ollivander', 'Pansy Parkinson', 'Padma Patil', 'Parvati Patil', 'Peter Pettigrew', 'Peeves', 'Pigwidgeon', 'Irma Pince', 'Sturgis Podmore', 'Poppy Pomfrey', 'Harry Potter', 'James Potter', 'Lily Potter', 'Quirinius Quirrell', 'Helena Ravenclaw', 'Rowena Ravenclaw', 'Tom Marvolo Riddle', 'Demelza Robins', 'Ronan', 'Augustus Rookwood', 'Madam Rosmerta', 'Thorfinn Rowle', 'Albert Runcorn', 'Scabbers', 'Rufus Scrimgeour', 'Kingsley Shacklebolt', 'Stan Shunpike', 'Aurora Sinistra', 'Rita Skeeter', 'Horace Slughorn', 'Salazar Slytherin', 'Zacharias Smith', 'Severus Snape', 'Alicia Spinnet', 'Pomona Sprout', 'Pius Thicknesse', 'Dean Thomas', 'Andromeda Tonks', 'Nymphadora Tonks', 'Ted Tonks', 'Travers', 'Sybill Trelawney', 'Trevor', 'Wilkie Twycross', 'Dolores Umbridge', 'Emmeline Vance', 'Romilda Vane', 'Septima Vector', 'Myrtle Warren', 'Arthur Weasley', 'Bill Weasley', 'Charlie Weasley', 'Fred Weasley', 'George Weasley', 'Ginny Weasley', 'Molly Weasley', 'Percy Weasley', 'Ron Weasley', 'Winky', 'Oliver Wood', 'Corban Yaxley', 'Blaise Zabini'];
-
+var names = ['Bane', 'The Bloody Baron', 'Bathilda Bagshot', 'Buckbeak', 'Katie Bell', 'Crookshanks', 'Cuthbert Binns', 'Phineas Nigellus Black', 'Regulus Arcturus Black', 'Sirius Black', 'Amelia Bones', 'Susan Bones', 'Terry Boot', 'Lavender Brown', 'Millicent Bullstrode', 'Charity Burbage', 'Frank Bryce', 'Alecto Carrow', 'Amycus Carrow', 'Reginald Cattermole', 'Cho Chang', 'Penelope Clearwater', 'Vincent Crabbe', 'Colin Creevy', 'Dennis Creevy', 'Dirk Cresswell', 'Barty Crouch Sr', 'Barty Crouch Jr', 'John Dawlish', 'Fleur Delacour', 'Gabrielle Delacour', 'Dedalus Diggle', 'Amos Diggory', 'Cedric Diggory', 'Dobby', 'Elphias Doge', 'Antonin Dolohov', 'Aberforth Dumbledore', 'Albus Dumbledore', 'Ariana Dumbledore', 'Kendra Dumbledore', 'Percival Dumbledore', 'Dudley Dursley', 'Marge Dursley', 'Petunia Dursley', 'Vernon Dursley', 'Marietta Edgecombe', 'Errol', 'Fang', 'The Fat Friar', 'Fawkes', 'Arabella Figg', 'Argus Filch', 'Justin Finch-Fletchley', 'Seamus Finnigan', 'Firenze', 'Nicolas Flamel', 'Mundungus Fletcher', 'Filius Flitwick', 'Fluffy', 'Cornelius Fudge', 'Marvolo Gaunt', 'Merope Gaunt', 'Morfin Gaunt', 'Anthony Goldstein', 'Gregory Goyle', 'Hermione Granger', 'Grawp', 'Gregorovitch', 'Fenrir Greyback', 'Gellert Grindelwald', 'Wilhelmina Grubbly-Plank', 'Godric Gryffindor', 'Rubeus Hagrid', 'Hedwig', 'Hokey', 'Rolanda Hooch', 'Mafalda Hopkirk', 'Helga Hufflepuff', 'Angelina Johnson', 'Lee Jordan', 'Bertha Jorkins', 'Igor Karkaroff', 'Kreacher', 'Viktor Krum', 'Bellatrix Lestrange', 'Gilderoy Lockhart', 'Alice Longbottom', 'Frank Longbottom', 'Augusta Longbottom', 'Neville Longbottom', 'Luna Lovegood', 'Xenophilius Lovegood', 'Remus Lupin', 'Walden Macnair', 'Magorian', 'Draco Malfoy', 'Lucius Malfoy', 'Narcissa Malfoy', 'Madam Malkin', 'Griselda Marchbanks', 'Olympe Maxime', 'Ernie Macmillan', 'Minerva McGonagall', 'Eloise Midgen', 'Cormac McLaggen', 'Graham Montague', 'Alastor Moody', 'Aunt Muriel', 'Nagini', 'Nearly Headless Nick', 'Norbert', 'Theodore Nott', 'Bob Ogden', 'Garrick Ollivander', 'Pansy Parkinson', 'Padma Patil', 'Parvati Patil', 'Peter Pettigrew', 'Peeves', 'Pigwidgeon', 'Irma Pince', 'Sturgis Podmore', 'Poppy Pomfrey', 'Harry Potter', 'James Potter', 'Lily Potter', 'Quirinius Quirrell', 'Helena Ravenclaw', 'Rowena Ravenclaw', 'Tom Marvolo Riddle', 'Demelza Robins', 'Ronan', 'Augustus Rookwood', 'Madam Rosmerta', 'Thorfinn Rowle', 'Albert Runcorn', 'Scabbers', 'Rufus Scrimgeour', 'Kingsley Shacklebolt', 'Stan Shunpike', 'Aurora Sinistra', 'Rita Skeeter', 'Horace Slughorn', 'Salazar Slytherin', 'Zacharias Smith', 'Severus Snape', 'Alicia Spinnet', 'Pomona Sprout', 'Pius Thicknesse', 'Dean Thomas', 'Andromeda Tonks', 'Nymphadora Tonks', 'Ted Tonks', 'Travers', 'Sybill Trelawney', 'Trevor', 'Wilkie Twycross', 'Dolores Umbridge', 'Emmeline Vance', 'Romilda Vane', 'Septima Vector', 'Myrtle Warren', 'Arthur Weasley', 'Bill Weasley', 'Charlie Weasley', 'Fred Weasley', 'George Weasley', 'Ginny Weasley', 'Molly Weasley', 'Percy Weasley', 'Ron Weasley', 'Winky', 'Oliver Wood', 'Corban Yaxley', 'Blaise Zabini'];
+var list = [];
 
 
 fetch('./Spells.json')
@@ -12,17 +12,46 @@ fetch('./Spells.json')
             if (data.spells[i].incantation === 'Unknown'){
                 continue
             }
+            else if (data.spells[i].incantation === 'None'){
+                continue
+            }
             else{
-                if(spells.includes(data.spells[i].incantation)){
+                if(list.includes(data.spells[i].incantation)){
                     // do nothing
                 }
                 else{
-                    spells.push(data.spells[i].incantation);
+                    list.push(data.spells[i].incantation);
                 }
                 
             }
         }
-        createSpellOptions();
+        // 
+        
+        // var list = [];
+        fetch('./Data.json')
+        .then(function(resp2) {
+            return resp2.json();
+        })
+        .then(function(data2) {
+            
+            for(let i = 0; i < list.length; i++){
+                var spell= list[i];
+                var count = 0;
+                for(let j = 0; j < data2.entry.length; j++){
+                    if(data2.entry[j].spells.includes(spell)){
+                        count = count + 1;
+                    }
+                }
+                if(count == 0){
+                    // do nothing
+                }
+                else{
+                    spells.push([spell]);
+                }
+            }
+            createSpellOptions();
+        });
+        
     });
 
 createCharacterOptions();
@@ -92,8 +121,14 @@ function drawSVG(){
         // Iterate over JSON data and parse sentiment to Float and set i to x (for sentence number) and set y to sentiment -> store in datapoints array.
         for(let i = 0; i< data.entry.length; i++){
             let y = parseFloat(data.entry[i].sentiment);
-                let x = i;
-                datapoints.push({'x': x, 'sentiment': y});
+            let x = i;
+            let sen = data.entry[i].sentence;
+            let chapter = data.entry[i].chapter;
+            let characters = data.entry[i].characters;
+            let groups = data.entry[i].groups;
+            let spells = data.entry[i].spells;
+            datapoints.push({'x': x, 'sentiment': y, 'sentence' : sen, 'chapter': chapter,
+            'characters': characters, 'groups' : groups, 'spells': spells});
         }
         // Setting attributes for svg, sentiment lines and scales.
         document.getElementById("con2").style.width = data.entry.length + 10;
@@ -209,7 +244,93 @@ function drawSVG(){
         .attr("y", 0 )
         .attr("text-anchor", "middle")
         .text("Harry Potter sentiment chart: Book " + booknumber);
-        
+
+
+                    
+        const focus = svg
+        .append("g")
+        .attr("class", "focus")
+        .style("display", "none");
+
+        // append the circle at the intersection
+        focus
+        .append("circle")
+        .attr("class", "y")
+        .style("fill", "none")
+        .attr("r", 2); // radius
+
+        // place the value at the intersection
+
+
+        focus.append("text").attr("class", "y1").attr("dx", 8).attr("dy", "0em");
+        focus.append("text").attr("class", "y2").attr("dx", 8).attr("dy", "1em");
+        focus.append("text").attr("class", "y3").attr("dx", 8).attr("dy", "2em");
+        focus.append("text").attr("class", "y4").attr("dx", 8).attr("dy", "3em");
+
+                    
+        function mouseMove(event) {
+            const bisect = d3.bisector((d) => d.x).left,
+            x0 = x.invert(d3.pointer(event, this)[0]),
+            i = bisect(datapoints, x0, 1),
+            d0 = datapoints[i - 1],
+            d1 = datapoints[i],
+            d = x0 - d0.x > d1.x - x0 ? d1 : d0;
+
+            focus
+                .select("circle.y")
+                .attr("transform", "translate(" + x(d.x) + "," + y(d.sentiment) + ")");
+
+            focus
+                .select("text.y1")
+                .attr("transform", "translate(" + x(d.x) + ")") 
+                .style("fill", "black")
+                .text('Satz: '+ d.x);
+            
+            focus
+                .select("text.y2")
+                .attr("transform", "translate(" + x(d.x) +  ")")
+                .style("fill", "black")
+                .text('Sentiment: '+ d.sentiment);
+
+            focus
+                .select("text.y3")
+                .attr("transform", "translate(" + x(d.x) + ")") 
+                .style("fill", "black")
+                .text('Satz: ' + d.sentence);
+            
+            focus
+                .select("text.y4")
+                .attr("transform", "translate(" + x(d.x) +  ")")
+                .style("fill", "black")
+                .text('Kapitel: ' + d.chapter);
+
+
+            focus
+                .select(".x")
+                .attr("transform", "translate(" + x(d.x) + "," + y(d.sentiment) + ")")
+                .attr("y2", height - y(d.sentiment));
+
+            focus
+                .select(".y")
+                .attr("transform", "translate(" + width * -1 + "," + y(d.sentiment) + ")")
+                .attr("x2", width + width);
+        }
+
+        svg
+        .append("rect")
+        .attr("width", width)
+        .attr("height", height)
+        .style("fill", "none")
+        .style("pointer-events", "all")
+        .on("mouseover", () => {
+            focus.style("display", null);
+        })
+        .on("mouseout", () => {
+            focus.style("display", "none");
+        })
+        .on("touchmove mousemove", mouseMove);
+    
+
     });
 };
 
@@ -219,6 +340,14 @@ function selectBook(){
     return BookOption;
 };
 
+function selectColor(){
+    var ColorOption = document.getElementById("color-picker").value;
+    console.log(ColorOption);
+    return ColorOption;
+};
+
+
+// Change Functions to show Bars in Chart 
 function selectPerson(){
     var PersonOption = document.getElementById("formSelectPerson").value;
     return PersonOption;
@@ -234,8 +363,4 @@ function selectSpell(){
     return SpellOption;
 };
 
-function selectColor(){
-    var ColorOption = document.getElementById("color-picker").value;
-    return ColorOption;
-};
 
