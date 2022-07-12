@@ -20,6 +20,14 @@ body{
     max-width: 20000px;
 }
 
+#con3{
+    display: block;
+    margin-left: 500px;
+    max-width: 20000px;
+    position:sticky;
+    overflow-y: scroll;
+}
+
 .horizontal_line{
     background-color: white;
     width: 440px;
