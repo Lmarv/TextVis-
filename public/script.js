@@ -334,7 +334,17 @@ function drawSentiment(){
         .on("mouseout", () => {
             focus.style("display", "none");
         })
-        .on("touchmove mousemove", mouseMove);
+        .on("touchmove mousemove", mouseMove)
+        .on("click", function(f){
+            const bisect = d3.bisector((d) => d.x).left,
+            x0 = x.invert(d3.pointer(f, this)[0]),
+            i = bisect(datapoints, x0, 1),
+            d0 = datapoints[i - 1],
+            d1 = datapoints[i],
+            d = x0 - d0.x > d1.x - x0 ? d1 : d0;
+            var c = Number(d.chapter.split(" ")[0]);
+            drawWordClouds(c, 3);
+        });
         
        
         var PersonOption = document.getElementById("formSelectPerson").value;
@@ -435,3 +445,86 @@ function selectSpell(){
     var SpellOption = document.getElementById("formSelectSpell").value;
     return SpellOption;
 };
+
+function drawWordClouds(chapter, threshold) {
+    fetch("./lemmatizedT3.json")
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            var entries = Object.entries(data);
+            var entries1 = entries[0][1]
+            var freqs = [];
+            var frequentWord = entries1.filter(function (entry) {
+                if (entry.freq > threshold && entry.chapter === chapter) {
+                    freqs.push(entry.freq);
+                    return entry;
+                }
+            });
+
+
+            frequentWord.sort(function (a, b) {
+                return b.freq - a.freq;
+            });
+
+            freqs.sort(function (a, b) {
+                return b - a;
+            });
+
+
+            let scale = d3.scaleSqrt()
+                .range([10, 60])
+                .domain(d3.extent(
+                    frequentWord.map(function (d) {
+                        return d.freq
+                    })
+                ));
+
+            let words = Object.keys(frequentWord).map(function (d) {
+                return {
+                    text: frequentWord[d].token,
+                    color: frequentWord[d].freq > freqs[( Math.ceil(freqs.length / 3) )] ? "navy" :
+                    frequentWord[d].freq > freqs[( Math.ceil(freqs.length / 3) * 2) ] ? "dodgerblue" :
+                    "mediumturquoise",
+                    size: scale(frequentWord[d].freq),
+                    context: frequentWord[d].context
+                };
+            });
+
+            {
+                //let svg = d3.create("svg");
+                const svg = d3.select("#con3").append("svg");
+                let layout = d3.layout.cloud()
+                    .size([600, 600])
+                    .words(words)
+                    .padding(2)
+                    .rotate(function () { return 0 })
+                    .fontSize(function (d) { return d.size; })
+                    .random(function (d) { return 0.5; })
+                    .on("end", draw);
+                layout.start();
+
+                return svg.node();
+
+                function draw(tags) {
+                    svg.attr("width", layout.size()[0])
+                        .attr("height", layout.size()[1])
+                        .append("g")
+                        .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+                        .selectAll("text")
+                        .data(tags)
+                        .enter()
+                        .append("text")
+                        .style("font-size", function (d) { return d.size + "px"; })
+                        .style("font-family", "sans-serif")
+                        .attr("id", function (d) { return d.context; })
+                        .attr("text", function(d){ return d.text; })
+                        .attr("text-anchor", "middle")
+                        .attr("fill", function (d) { return d.color; })
+                        .attr("class", "words")
+                        .attr("transform", function (d) { return "translate(" + [d.x, d.y] + ")"; })
+                        .text(function (d) { return d.text; });
+                }
+            }
+        });
+}
