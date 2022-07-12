@@ -80,9 +80,13 @@ function createCharacterOptions(){
 
         
 
-function drawSVG(){
+function drawSentiment(){
     // Create array for storing data points with x and y coordinates for chart.
     var datapoints = [];
+    // Create Arrays to store coordinates for selcted persons, groups and spells.
+    var personArray = [];
+    var groupArray = [];
+    var spellArray = [];
     // Empty container to delete previous chart.
     document.getElementById("con2").innerHTML = "";
     
@@ -131,10 +135,10 @@ function drawSVG(){
             'characters': characters, 'groups' : groups, 'spells': spells});
         }
         // Setting attributes for svg, sentiment lines and scales.
-        document.getElementById("con2").style.width = data.entry.length + 10;
-        const margin = { top: 100, right: 30, bottom: 50, left: 50 },
-        width = data.entry.length - margin.left - margin.right,
-        height = 800 - margin.top - margin.bottom;
+        document.getElementById("con2").style.width = data.entry.length + 100;
+        const margin = { top: 100, right: 50, bottom: 50, left: 50 },
+        width = data.entry.length ,
+        height = 800;
 
                 
         const x = d3.scaleLinear().range([0, width]).domain([0, data.entry.length]);
@@ -161,6 +165,7 @@ function drawSVG(){
         .append("svg")     
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
+        .attr("id", "svg")
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -226,7 +231,7 @@ function drawSVG(){
 
         // Draw line chart.
         linePath
-        .attr("stroke-dasharray", pathLength)
+        .attr("stroke", pathLength)
         .attr("stroke-dashoffset", pathLength)
         .attr("stroke-width", 0)
         .transition()
@@ -284,7 +289,7 @@ function drawSVG(){
                 .select("text.y1")
                 .attr("transform", "translate(" + x(d.x) + ")") 
                 .style("fill", "black")
-                .text('Satz: '+ d.x);
+                .text('Sentence-ID: '+ d.x);
             
             focus
                 .select("text.y2")
@@ -296,13 +301,13 @@ function drawSVG(){
                 .select("text.y3")
                 .attr("transform", "translate(" + x(d.x) + ")") 
                 .style("fill", "black")
-                .text('Satz: ' + d.sentence);
+                .text('Sentence: ' + d.sentence);
             
             focus
                 .select("text.y4")
                 .attr("transform", "translate(" + x(d.x) +  ")")
                 .style("fill", "black")
-                .text('Kapitel: ' + d.chapter);
+                .text('Chapter: ' + d.chapter);
 
 
             focus
@@ -320,6 +325,7 @@ function drawSVG(){
         .append("rect")
         .attr("width", width)
         .attr("height", height)
+        .attr("id", "rect")
         .style("fill", "none")
         .style("pointer-events", "all")
         .on("mouseover", () => {
@@ -329,9 +335,78 @@ function drawSVG(){
             focus.style("display", "none");
         })
         .on("touchmove mousemove", mouseMove);
-    
+        
+       
+        var PersonOption = document.getElementById("formSelectPerson").value;
+        for(let i = 0; i< datapoints.length; i++){
+            if(datapoints[i].characters.includes(PersonOption)){
+                personArray.push({"x": datapoints[i].x, "y":90});
+            }
+            
+        }
 
+        for(let j = 0; j<personArray.length; j++){
+            let x = personArray[j].x;
+            let y = personArray[j].y;
+            
+            svg
+            .append('circle')
+            .attr("cx", x)
+            .attr("cy", y)
+            .attr("r", 2)
+            .style('stroke', 'green')
+            .style('fill', 'green')
+            .style('stroke-width', 2)
+            .style('z-index', 1500);
+        }
+
+        var GroupOption = document.getElementById("formSelectGroup").value;
+        for(let i = 0; i< datapoints.length; i++){
+            if(datapoints[i].groups.includes(GroupOption)){
+                groupArray.push({"x": datapoints[i].x, "y": 110});
+            }
+            
+        }
+
+        for(let j = 0; j<groupArray.length; j+=10){
+            let x = groupArray[j].x ;
+            let y = groupArray[j].y;
+            
+            svg
+            .append('circle')
+            .attr("cx", x)
+            .attr("cy", y)
+            .attr("r", 2)
+            .style('stroke', 'red')
+            .style("fill", 'red')
+            .style('stroke-width', 2)
+            .style('z-index', 1500);
+        }
+
+        var SpellOption = document.getElementById("formSelectSpell").value;
+        for(let i = 0; i< datapoints.length; i++){
+            if(datapoints[i].spells.includes(SpellOption)){
+                spellArray.push({"x": datapoints[i].x, "y": 130});
+            }
+            
+        }
+
+        for(let j = 0; j<spellArray.length; j++){
+            let x = spellArray[j].x ;
+            let y = spellArray[j].y;
+            
+            svg
+            .append('circle')
+            .attr("cx", x)
+            .attr("cy", y)
+            .attr("r", 2)
+            .style('stroke', '#6A5ACD')
+            .style("fill", '#6A5ACD')
+            .style('stroke-width', 2)
+            .style('z-index', 1500);
+        }
     });
+    
 };
 
 
@@ -346,8 +421,6 @@ function selectColor(){
     return ColorOption;
 };
 
-
-// Change Functions to show Bars in Chart 
 function selectPerson(){
     var PersonOption = document.getElementById("formSelectPerson").value;
     return PersonOption;
@@ -362,5 +435,3 @@ function selectSpell(){
     var SpellOption = document.getElementById("formSelectSpell").value;
     return SpellOption;
 };
-
-
