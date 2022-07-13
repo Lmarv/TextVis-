@@ -335,6 +335,7 @@ function drawSentiment(){
             focus.style("display", "none");
         })
         .on("touchmove mousemove", mouseMove)
+        // word clouds of respective chapter are drawn on click on the graph
         .on("click", function(f){
             const bisect = d3.bisector((d) => d.x).left,
             x0 = x.invert(d3.pointer(f, this)[0]),
@@ -447,31 +448,37 @@ function selectSpell(){
 };
 
 function drawWordClouds(chapter, threshold) {
+    // fetch json data
     fetch("./lemmatizedT3.json")
         .then(function (response) {
             return response.json();
         })
         .then(function (data) {
+            // get entries
             var entries = Object.entries(data);
             var entries1 = entries[0][1]
             var freqs = [];
+
+            // filter for entries from the chapter "chapter" and with a frequency higher than "threshold" 
             var frequentWord = entries1.filter(function (entry) {
                 if (entry.freq > threshold && entry.chapter === chapter) {
+                    // create list of frequencies to later calculate the upper, middle, and lower third of occurrences
                     freqs.push(entry.freq);
                     return entry;
                 }
             });
 
-
+            // sort the entries by frequency
             frequentWord.sort(function (a, b) {
                 return b.freq - a.freq;
             });
 
+            // sort the list of frequencies 
             freqs.sort(function (a, b) {
                 return b - a;
             });
 
-
+            // create a scale to assign the font size to each tag according to it's frequency
             let scale = d3.scaleSqrt()
                 .range([10, 60])
                 .domain(d3.extent(
@@ -479,7 +486,8 @@ function drawWordClouds(chapter, threshold) {
                         return d.freq
                     })
                 ));
-
+            // for every word create an object containing the text, color, scaled size and context words
+            // if the word is in the upper third of appearing words, it is written in navy blue, middle third is written in dodger blue and lower third in medium turquoise
             let words = Object.keys(frequentWord).map(function (d) {
                 return {
                     text: frequentWord[d].token,
@@ -492,8 +500,10 @@ function drawWordClouds(chapter, threshold) {
             });
 
             {
-                //let svg = d3.create("svg");
+                // append svg to container 3
                 const svg = d3.select("#con3").append("svg");
+
+                // define parameters of word cloud
                 let layout = d3.layout.cloud()
                     .size([600, 600])
                     .words(words)
@@ -506,7 +516,17 @@ function drawWordClouds(chapter, threshold) {
 
                 return svg.node();
 
+                // function to draw the words in the cloud
                 function draw(tags) {
+                    // create tooltip to show context on mouseover
+                    var tooltip = d3.select("body")
+                                    .append("div")
+                                    .style("position", "absolute")
+                                    .style("z-index", "10")
+                                    .style("visibility", "hidden")
+                                    .style("background", "#ffffff")
+                                    .style("color","#740001")
+                                    .text("TEST");
                     svg.attr("width", layout.size()[0])
                         .attr("height", layout.size()[1])
                         .append("g")
@@ -523,7 +543,17 @@ function drawWordClouds(chapter, threshold) {
                         .attr("fill", function (d) { return d.color; })
                         .attr("class", "words")
                         .attr("transform", function (d) { return "translate(" + [d.x, d.y] + ")"; })
-                        .text(function (d) { return d.text; });
+                        .text(function (d) { return d.text; })
+                        .on("mouseover", function(d){
+                            tooltip.text(d.target.id);
+                            return tooltip.style("visibility", "visible");	
+                        })
+                        .on("mousemove", function(d){
+                            return tooltip.style("top", (d.pageY-10)+"px").style("left", (d.pageX+10)+"px");
+                        })
+                        .on("mouseout", function(){
+                            return tooltip.style("visibility", "hidden");
+                        });
                 }
             }
         });
