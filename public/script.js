@@ -501,7 +501,7 @@ function drawWordClouds(chapter, threshold) {
 
             {
                 // append svg to container 3
-                const svg = d3.select("#con3").append("svg");
+                const svg = d3.select("#con3").append("svg").attr("id", "#cloudsvg");
 
                 // define parameters of word cloud
                 let layout = d3.layout.cloud()

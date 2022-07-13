@@ -21,11 +21,18 @@ body{
 }
 
 #con3{
-    display: block;
+    display: flex;
     margin-left: 500px;
-    max-width: 20000px;
-    position:sticky;
-    overflow-y: scroll;
+    max-width: 50000px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#cloudsvg{
+    margin-left: 20px;
+    margin-right: 20px;
+    /*position:sticky;*/
+    left:0cm;
 }
 
 .horizontal_line{
@@ -116,5 +123,4 @@ p{
 path.area {
     fill: none;
 }
-
 
