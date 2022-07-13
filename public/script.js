@@ -137,13 +137,13 @@ function drawSentiment(){
         }
         // Setting attributes for svg, sentiment lines and scales.
         document.getElementById("con2").style.width = data.entry.length + 100;
-        const margin = { top: 100, right: 50, bottom: 50, left: 50 },
-        width = data.entry.length ,
-        height = 800;
+        const margin = { top: 100, right: 50, bottom: 100, left: 50 },
+        width = data.entry.length,
+        height = 800 +margin.bottom + margin.top;
 
                 
         const x = d3.scaleLinear().range([0, width]).domain([0, data.entry.length]);
-        const y = d3.scaleLinear().range([height, 0]).domain([-1, 1]);
+        const y = d3.scaleLinear().range([height, 0]).domain([-1.1, 1.1]);
 
         // Setting area and valueline.
         const area = d3
@@ -268,10 +268,10 @@ function drawSentiment(){
         // place the value at the intersection
 
 
-        focus.append("text").attr("class", "y1").attr("dx", 8).attr("dy", "0em");
-        focus.append("text").attr("class", "y2").attr("dx", 8).attr("dy", "1em");
-        focus.append("text").attr("class", "y3").attr("dx", 8).attr("dy", "2em");
-        focus.append("text").attr("class", "y4").attr("dx", 8).attr("dy", "3em");
+        focus.append("text").attr("class", "y1").attr("dx", 0).attr("dy", "0em");
+        focus.append("text").attr("class", "y2").attr("dx", 0).attr("dy", "1em");
+        focus.append("text").attr("class", "y3").attr("dx", 0).attr("dy", "2em");
+        focus.append("text").attr("class", "y4").attr("dx", 0).attr("dy", "3em");
 
                     
         function mouseMove(event) {
