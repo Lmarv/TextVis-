@@ -89,6 +89,7 @@ function drawSentiment(){
     var spellArray = [];
     // Empty container to delete previous chart.
     document.getElementById("con2").innerHTML = "";
+    document.getElementById("con3").innerHTML = "";
     
     // Get selected book number and color for correct JSON file and color of the line chart.
     var booknumber = document.getElementById("formSelectBooks").value;
@@ -448,6 +449,7 @@ function selectSpell(){
 };
 
 function drawWordClouds(chapter, threshold) {
+    document.getElementById("con3").innerHTML = "";
     // fetch json data
     fetch("./lemmatizedT3.json")
         .then(function (response) {
