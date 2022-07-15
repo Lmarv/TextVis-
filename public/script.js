@@ -448,7 +448,11 @@ function selectSpell(){
     return SpellOption;
 };
 
+
+// Loading and drawing the word clouds
+// author: Julia Guettler
 function drawWordClouds(chapter, threshold) {
+    // clear the container from previous word cloud
     document.getElementById("con3").innerHTML = "";
     // fetch json data
     fetch("./lemmatizedT3.json")
@@ -505,12 +509,16 @@ function drawWordClouds(chapter, threshold) {
                 // append svg to container 3
                 const svg = d3.select("#con3").append("svg").attr("id", "#cloudsvg");
 
-                // define parameters of word cloud
+                // define parameters of the word cloud layout
                 let layout = d3.layout.cloud()
+                    // size of the word cloud
                     .size([600, 600])
                     .words(words)
+                    // distance between two words
                     .padding(2)
+                    // no rotation
                     .rotate(function () { return 0 })
+                    // font size for each word is is calculated before
                     .fontSize(function (d) { return d.size; })
                     .random(function (d) { return 0.5; })
                     .on("end", draw);
@@ -525,13 +533,16 @@ function drawWordClouds(chapter, threshold) {
                                     .append("div")
                                     .style("position", "absolute")
                                     .style("z-index", "10")
+                                    // tooltip stays hidden unless a mouseover event takes place
                                     .style("visibility", "hidden")
                                     .style("background", "#ffffff")
                                     .style("color","#740001")
-                                    .text("TEST");
+                                    .text("test");
+                    // add attributes to the svg such as the tags (words for word cloud)
                     svg.attr("width", layout.size()[0])
                         .attr("height", layout.size()[1])
                         .append("g")
+                        // place word cloud in the center of the 600x600 layout
                         .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
                         .selectAll("text")
                         .data(tags)
@@ -539,6 +550,7 @@ function drawWordClouds(chapter, threshold) {
                         .append("text")
                         .style("font-size", function (d) { return d.size + "px"; })
                         .style("font-family", "sans-serif")
+                        // id had to be set to the context of the word, otherwise the context could not have been shown in the tooltip
                         .attr("id", function (d) { return d.context; })
                         .attr("text", function(d){ return d.text; })
                         .attr("text-anchor", "middle")
@@ -546,6 +558,7 @@ function drawWordClouds(chapter, threshold) {
                         .attr("class", "words")
                         .attr("transform", function (d) { return "translate(" + [d.x, d.y] + ")"; })
                         .text(function (d) { return d.text; })
+                        // on mousever event the tooltip showing the context words becomes visible
                         .on("mouseover", function(d){
                             tooltip.text(d.target.id);
                             return tooltip.style("visibility", "visible");	
@@ -553,6 +566,7 @@ function drawWordClouds(chapter, threshold) {
                         .on("mousemove", function(d){
                             return tooltip.style("top", (d.pageY-10)+"px").style("left", (d.pageX+10)+"px");
                         })
+                        // on mouseout the tooltip becomes invisible again
                         .on("mouseout", function(){
                             return tooltip.style("visibility", "hidden");
                         });
